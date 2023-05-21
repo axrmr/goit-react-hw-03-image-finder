@@ -48,11 +48,11 @@ Error generating stack: `+i.message+`
     border: 2px solid #cecece;
     border-radius: 5px;
     cursor: pointer;
-    transition: box-shadow 0.25s ease-in-out, border 0.25s ease-in-out;
+    transition: box-shadow 0.25s ease, border 0.25s ease;
 
     &:hover {
         border: 2px solid transparent;
-        box-shadow: -1px 1px 4px #00d8ff, 1px 1px 4px #00d8ff;
+        box-shadow: -1px 1px 10px #00d8ff, 1px 1px 10px #00d8ff;
     }
 `,Vv=({children:e,...t})=>V.jsx(Wv,{...t,children:e}),Qv=In.li``,Gv=({url:e,largeImageURL:t,tags:n,setLargeImageUrl:r})=>{const o=i=>{const l=i.target.dataset.largeImgUrl;r(l)};return V.jsx(V.Fragment,{children:V.jsx(Qv,{className:"gallery-item",children:V.jsx("img",{src:e,"data-large-img-url":t,alt:n,onClick:o,width:"280",height:"220"})})})};var Yv=function(e){return{display:e?"flex":"none"}},Nf="#4fa94d",Kv={"aria-busy":!0,role:"status"},Rf=globalThis&&globalThis.__assign||function(){return Rf=Object.assign||function(e){for(var t,n=1,r=arguments.length;n<r;n++){t=arguments[n];for(var o in t)Object.prototype.hasOwnProperty.call(t,o)&&(e[o]=t[o])}return e},Rf.apply(this,arguments)},Af=globalThis&&globalThis.__assign||function(){return Af=Object.assign||function(e){for(var t,n=1,r=arguments.length;n<r;n++){t=arguments[n];for(var o in t)Object.prototype.hasOwnProperty.call(t,o)&&(e[o]=t[o])}return e},Af.apply(this,arguments)},jf=globalThis&&globalThis.__assign||function(){return jf=Object.assign||function(e){for(var t,n=1,r=arguments.length;n<r;n++){t=arguments[n];for(var o in t)Object.prototype.hasOwnProperty.call(t,o)&&(e[o]=t[o])}return e},jf.apply(this,arguments)},zf=globalThis&&globalThis.__assign||function(){return zf=Object.assign||function(e){for(var t,n=1,r=arguments.length;n<r;n++){t=arguments[n];for(var o in t)Object.prototype.hasOwnProperty.call(t,o)&&(e[o]=t[o])}return e},zf.apply(this,arguments)},Lf=globalThis&&globalThis.__assign||function(){return Lf=Object.assign||function(e){for(var t,n=1,r=arguments.length;n<r;n++){t=arguments[n];for(var o in t)Object.prototype.hasOwnProperty.call(t,o)&&(e[o]=t[o])}return e},Lf.apply(this,arguments)},If=globalThis&&globalThis.__assign||function(){return If=Object.assign||function(e){for(var t,n=1,r=arguments.length;n<r;n++){t=arguments[n];for(var o in t)Object.prototype.hasOwnProperty.call(t,o)&&(e[o]=t[o])}return e},If.apply(this,arguments)},Df=globalThis&&globalThis.__assign||function(){return Df=Object.assign||function(e){for(var t,n=1,r=arguments.length;n<r;n++){t=arguments[n];for(var o in t)Object.prototype.hasOwnProperty.call(t,o)&&(e[o]=t[o])}return e},Df.apply(this,arguments)},Om={exports:{}},te={};/**
  * @license React
@@ -283,7 +283,7 @@ Error generating stack: `+i.message+`
         }
         &:focus-visible {
             border: 2px solid transparent;
-            box-shadow: -1px 1px 4px #00d8ff, 1px 1px 4px #00d8ff;
+            box-shadow: -1px 1px 7px #00d8ff, 1px 1px 7px #00d8ff;
         }
     }
 
